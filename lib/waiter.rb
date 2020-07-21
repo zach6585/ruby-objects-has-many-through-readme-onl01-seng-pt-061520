@@ -29,6 +29,7 @@ class Waiter
         end 
       end 
     end 
+    customer
   end 
   
 end
