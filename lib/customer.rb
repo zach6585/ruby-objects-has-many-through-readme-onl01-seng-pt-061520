@@ -22,5 +22,6 @@ class Customer
     a = []
     meals.each do |meal|
       a << meal.waiter
+    end 
   end 
 end
