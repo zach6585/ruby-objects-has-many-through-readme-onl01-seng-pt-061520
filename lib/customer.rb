@@ -19,6 +19,6 @@ class Customer
   end 
   
   def waiters 
-    meals.waiters 
+    meals.waiter
   end 
 end
