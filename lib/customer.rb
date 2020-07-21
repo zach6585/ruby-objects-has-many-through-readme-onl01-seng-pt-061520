@@ -19,7 +19,8 @@ class Customer
   end 
   
   def waiters 
+    a = []
     meals.each do |meal|
-      meal.waiter 
+      a << meal.waiter
   end 
 end
