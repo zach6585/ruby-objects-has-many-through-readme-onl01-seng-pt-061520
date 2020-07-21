@@ -19,6 +19,7 @@ class Customer
   end 
   
   def waiters 
-    puts meals 
+    meals.each do |meal|
+      meal.waiter 
   end 
 end
