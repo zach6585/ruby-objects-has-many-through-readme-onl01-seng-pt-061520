@@ -21,6 +21,7 @@ class Waiter
   
   def best_tipper
     a = -1
+    b = ""
     Customer.all.each do |customer| 
       customer.meals.each do |meal|
         if meal.tip > a
