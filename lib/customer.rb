@@ -23,5 +23,6 @@ class Customer
     meals.each do |meal|
       a << meal.waiter
     end 
+    a 
   end 
 end
