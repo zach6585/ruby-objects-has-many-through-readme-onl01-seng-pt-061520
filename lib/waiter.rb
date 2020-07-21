@@ -20,4 +20,7 @@ class Waiter
   end 
   
   def best_tipper
+    a = -1
+    Customer.all.each do |customer|
+      
 end
