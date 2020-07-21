@@ -19,6 +19,6 @@ class Customer
   end 
   
   def waiters 
-    
+    puts meals 
   end 
 end
