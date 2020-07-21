@@ -29,7 +29,7 @@ class Waiter
         end 
       end 
     end 
-    customer
+    b
   end 
   
 end
